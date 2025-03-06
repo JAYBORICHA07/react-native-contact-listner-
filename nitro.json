@@ -1,0 +1,19 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "contactlistner"
+  ],
+  "ios": {
+    "iosModuleName": "NitroContactListner"
+  },
+  "android": {
+    "androidNamespace": [
+      "contactlistner"
+    ],
+    "androidCxxLibName": "NitroContactListner"
+  },
+  "autolinking": {},
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
