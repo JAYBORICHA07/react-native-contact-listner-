@@ -9,6 +9,8 @@ export interface ContactListener
 }
 
 export interface ContactEvent {
-  type: 'added' | 'updated' | 'deleted'
+  type: ContactEventType
   contactId: string
 }
+
+export type ContactEventType = 'added' | 'updated' | 'deleted'
